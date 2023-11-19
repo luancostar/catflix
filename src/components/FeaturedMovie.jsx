@@ -19,7 +19,7 @@ export default ({item}) => {
                         pontos
                     </div>
                     <div className="featured-years">2099</div>
-                    <div className="featured-seasons">{item.number_of_seasons} temporadas</div>
+                    <div className="featured-seasons">{item.number_of_seasons} temporada {item.number_of_seasons !==1 ? 's' : ''}</div>
                 </div>
 
               </div>
