@@ -9,11 +9,13 @@
 .featured--horizontal{
     width: inherit;
     height: inherit;
-    background: linear-gradient(to right, #111 30%, transparent);
+    background: linear-gradient(to right, #111 30%, transparent 70%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 30px;
+    padding-bottom: 150px;
+    padding-top: 70px;
 }
 .featured--name{
     font-size: 60px;
