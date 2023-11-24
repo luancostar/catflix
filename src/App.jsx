@@ -61,6 +61,12 @@ import Header from './components/Header';
           Feito por 
            <a target="_blank" href="https://www.linkedin.com/in/luan-tech-dev/">Luan Rodrigues 🤘</a>
         </footer>
+
+        {movieList.length <= 0 &&
+        <div className="loading">
+          <img src="src/assets/logo-icons/netflix-loading.gif" alt="Carregando" />
+        </div>
+        }
     </div>
   );
   }
